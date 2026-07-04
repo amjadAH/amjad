@@ -16,15 +16,18 @@
     <meta name="twitter:image" content="https://amjad.codes/img/profile.jpg">
     <title>amjad</title>
     <link rel="icon" href="img/icon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Chakra+Petch:wght@400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/fontawesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/brands.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/solid.min.css">
 </head>
 <body>
     <button class="theme-toggle" aria-label="toggle theme">
-        <i class="fas fa-moon"></i>
+        <i class="fas fa-moon" aria-hidden="true"></i>
     </button>
     <div class="particles">
         <div class="particle"></div>
@@ -39,7 +42,7 @@
         <div class="particle"></div>
     </div>
     <div class="container">
-        <header class="header-flex">
+        <main class="header-flex">
             <div class="profile-image">
                 <div class="circuit-avatar">
                     <img src="img/profile.jpg" alt="amjad" class="avatar">
@@ -55,31 +58,20 @@
                 </p>
                 <p class="bio">if you have any questions, want to collaborate on a project, or just wanna chat, you can reach out to me on:</p>
                 <div class="social-links">
-                    <a href="mailto:hi@amjad.codes" class="hover-effect"><i class="fas fa-envelope"></i></a>
-                    <a href="https://github.com/amjadAH" target="_blank" class="hover-effect"><i class="fab fa-github"></i></a>
-                    <a href="https://linkedin.com/in/amjad-ah" target="_blank" class="hover-effect"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://x.com/amjad_ah_" target="_blank" class="hover-effect"><i class="fab fa-x-twitter"></i></a>
-                    <a href="https://bsky.app/profile/amjad.codes" target="_blank" class="hover-effect"><i class="fab fa-bluesky"></i></a>
-                    <a href="https://blog.amjad.codes" target="_blank" class="hover-effect"><i class="fas fa-pen-to-square"></i></a>
+                    <a href="mailto:hi@amjad.codes" class="hover-effect" aria-label="Email"><i class="fas fa-envelope" aria-hidden="true"></i></a>
+                    <a href="https://github.com/amjadAH" target="_blank" rel="noopener noreferrer" class="hover-effect" aria-label="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
+                    <a href="https://linkedin.com/in/amjad-ah" target="_blank" rel="noopener noreferrer" class="hover-effect" aria-label="LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                    <a href="https://x.com/amjad_ah_" target="_blank" rel="noopener noreferrer" class="hover-effect" aria-label="X (Twitter)"><i class="fab fa-x-twitter" aria-hidden="true"></i></a>
+                    <a href="https://bsky.app/profile/amjad.codes" target="_blank" rel="noopener noreferrer" class="hover-effect" aria-label="Bluesky"><i class="fab fa-bluesky" aria-hidden="true"></i></a>
+                    <a href="https://blog.amjad.codes" target="_blank" rel="noopener noreferrer" class="hover-effect" aria-label="Blog"><i class="fas fa-pen-to-square" aria-hidden="true"></i></a>
                 </div>
             </div>
-        </header>
-
-        <!-- <section class="blog-section"> -->
-            <!-- <h2>latest blog posts</h2> -->
-            <!-- <div id="blog-posts" class="blog-posts-grid"> -->
-                <!-- blog posts will be loaded here -->
-                <!-- <div class="loading-spinner"> -->
-                    <!-- <i class="fas fa-spinner fa-spin"></i> -->
-                <!-- </div> -->
-            <!-- </div> -->
-        <!-- </section> -->
+        </main>
 
         <footer class="footer">
-            <p>created with <i class="fas fa-heart"></i> by ai <i class="fas fa-robot"></i></p>
+            <p>created with <i class="fas fa-heart" aria-hidden="true"></i> by ai <i class="fas fa-robot" aria-hidden="true"></i></p>
         </footer>
     </div>
     <script src="js/theme.js"></script>
-    <!-- <script src="js/blog.js"></script> -->
 </body>
 </html>
